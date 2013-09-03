@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: bloccit_test
   pool: 5
-  username: bloccit
-  password:
+  username: postgres
+  password: post123
 
 production:
   adapter: postgresql
   encoding: unicode
   database: bloccit_production
   pool: 5
-  username: bloccit
-  password:
+  username: postgres
+  password: post123
