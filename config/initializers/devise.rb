@@ -252,5 +252,6 @@ Devise.setup do |config|
   
   # PMH
   config.secret_key = '6d86e92c65b0196b77503cc4cb967b653393b43fa61fe36fd9edc8df67596a87afffd1ed5b5b93f394344925aa3f50207b44243f663e002da6f65e591e3d19bb'
-
+  
+  config.mailer_sender = "phelmick@gmail.com"
 end
