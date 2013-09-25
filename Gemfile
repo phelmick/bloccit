@@ -32,6 +32,15 @@ gem 'cancan'
 # Markdown syntax support
 gem 'redcarpet'
 
+# image saving/loading
+gem 'carrierwave'
+# image manipulation (version added for Windows)
+gem 'mini_magick', '~> 3.5.0'
+# cloud storage
+gem 'fog'
+# ENV config value support
+gem 'figaro'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
