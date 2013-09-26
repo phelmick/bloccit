@@ -40,6 +40,8 @@ gem 'mini_magick', '~> 3.5.0'
 gem 'fog'
 # ENV config value support
 gem 'figaro'
+# pagination
+gem 'will_paginate', '~> 3.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
